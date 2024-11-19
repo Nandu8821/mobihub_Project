@@ -1,0 +1,376 @@
+
+/* styles.css */
+.Heading {
+  position: relative;
+}
+
+.Heading .content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.Heading .content h1 {
+  color: white; /* Text color */
+}
+
+.Heading img {
+  width: 100%; /* Ensure image takes full width of the container */
+  height: 300px;
+}
+
+.firstlayer {
+    display: flex;
+    justify-content: space-between; /* Distribute space between elements */
+    align-items: center; /* Align items vertically */
+  }
+  
+  .leftlayer {
+    flex: 1; /* Take up remaining space */
+  }
+  
+  .rightlayer {
+    flex: 1; /* Take up remaining space */
+  }
+  
+  /* Additional styling for the button if needed */
+  .leftlayer-button {
+    /* Add your button styling here */
+  }
+.rightlayer img {
+    max-width: 80%; /* Set maximum width to 100% of the container */
+    height: auto; /* Maintain aspect ratio */
+    border: 1px solid purple;
+    border-radius: 10px;
+}
+
+.rightlayer img:hover {
+    box-shadow: 1px 4px 20px 4px violet; /* Adjusted box-shadow for pop-up effect */
+    transition: box-shadow 0.3s ease;
+}
+
+  
+  .leftlayer-button {
+    background-color: #4CAF50; /* Green background */
+    border: none; /* Remove border */
+    color: white; /* White text */
+    padding: 15px 32px; /* Padding */
+    text-align: center; /* Center text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Make it inline */
+    font-size: 16px; /* Font size */
+    margin-top: 20px; /* Add some space at the top */
+    border-radius: 8px; /* Rounded corners */
+    cursor: pointer; /* Change cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth transition */
+  }
+  
+  .leftlayer-button:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+  @media (max-width: 641px) {
+    .firstlayer {
+      display: block;
+    }
+  
+    .leftlayer,
+    .rightlayer {
+      margin-bottom: 20px; /* Add gap between leftlayer and rightlayer */
+    }
+}
+.secondlayer
+{
+  display: flex;
+  justify-content: space-between; /* Distribute space between elements */
+  align-items: center; /* Align items vertically */
+}
+
+.secondlayer-left {
+  flex: 1; /* Take up remaining space */
+}
+
+.secondlayer-right {
+  flex: 1; /* Take up remaining space */
+}
+.secondlayer-left img {
+  max-width: 80%; /* Set maximum width to 100% of the container */
+  height: auto; /* Maintain aspect ratio */
+  border: 1px solid purple;
+  border-radius: 10px;
+}
+
+.secondlayer-left img:hover {
+  box-shadow: 1px 4px 20px 4px violet; /* Adjusted box-shadow for pop-up effect */
+  transition: box-shadow 0.3s ease;
+}
+@media (max-width: 641px) {
+  .secondlayer {
+    display: block;
+  }
+
+  .secondlayer-left,
+  .secondlayer-right {
+    margin-bottom: 20px; /* Add gap between leftlayer and rightlayer */
+  }
+}
+
+
+.our-mission {
+  text-align: center; /* Aligning the text content horizontally */
+  margin: 0 auto; /* Setting left and right margins to auto to center the div */
+  
+}
+
+
+/* OurTeam Start */
+
+.OurTeam
+{
+  display: flex;
+  justify-content: space-between; /* Distribute space between elements */
+  align-items: center; /* Align items vertically */
+}
+
+
+.OurTeam-Left {
+  flex: 1; /* Take up remaining space */
+}
+
+.OurTeam-Right {
+  flex: 1; /* Take up remaining space */
+}
+
+
+.OurTeam-Right img {
+  max-width: 80%; /* Set maximum width to 100% of the container */
+  height: auto; /* Maintain aspect ratio */
+  border: 1px solid purple;
+  border-radius: 10px;
+}
+
+.OurTeam-Right img:hover {
+  box-shadow: 1px 4px 20px 4px violet; /* Adjusted box-shadow for pop-up effect */
+  transition: box-shadow 0.3s ease;
+}
+
+@media (max-width: 641px) {
+  .OurTeam {
+    display: block;
+  }
+
+  .OurTeam-Left,
+  .OurTeam-Right {
+    margin-bottom: 20px; /* Add gap between leftlayer and rightlayer */
+  }
+}
+/* OurTeam End */
+
+
+
+
+/* OurCommitment Start */
+
+.Our-Commitment
+{
+  display: flex;
+  justify-content: space-between; /* Distribute space between elements */
+  align-items: center; /* Align items vertically */
+}
+.Our-Commitment-Left {
+  flex: 1; /* Take up remaining space */
+}
+
+.Our-Commitment-Right {
+  flex: 1; /* Take up remaining space */
+}
+.Our-Commitment-Right img {
+  max-width: 80%; /* Set maximum width to 100% of the container */
+  height: auto; /* Maintain aspect ratio */
+  border: 1px solid purple;
+  border-radius: 10px;
+}
+
+.Our-Commitment-Right img:hover {
+  box-shadow: 1px 4px 20px 4px violet; /* Adjusted box-shadow for pop-up effect */
+  transition: box-shadow 0.3s ease;
+}
+
+.Our-Commitment-Left a {
+  color: #007bff; /* Change link color as desired */
+  text-decoration: none; /* Remove underline */
+  margin-right: 10px; /* Adjust spacing between links */
+}
+
+.Our-Commitment-Left a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+@media (max-width: 641px) {
+  .Our-Commitment{
+    display: block;
+  }
+
+  .Our-Commitment-Left,
+  .Our-Commitment-Right {
+    margin-bottom: 20px; /* Add gap between leftlayer and rightlayer */
+  }
+}
+
+
+/* OurCommitment End */
+
+
+/* About us More for mobihub start */
+
+.Mobi-Middle{
+  display: flex;
+  justify-content: center;
+}
+
+/* About us More for mobihub start */
+
+
+
+.arrow-icon {
+  vertical-align: middle;
+  
+}
+/* styles.css */
+.Award-winning {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);/* first column auto for icon, second column takes the remaining space */
+
+
+}
+
+.support {
+
+  border: 1px solid black;
+  gap: 10px;
+}
+
+.contact-link {
+  text-decoration: none;
+  color: #007bff; /* link color */
+}
+
+.arrow-icon {
+  vertical-align: middle;
+}
+
+/* Optional: Adjust styles for icon */
+svg {
+  width: 20px;
+  height: 20px;
+}
+/* styles.css */
+
+/* Container styles */
+.Award-winning {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+/* Individual box styles */
+.support,
+.Career,
+.media {
+  border: 1px solid #ccc; /* Border around each box */
+  border-radius: 8px; /* Rounded corners */
+  padding: 20px; /* Padding inside the box */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow */
+  transition: box-shadow 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Hover effect */
+.support:hover,
+.Career:hover,
+.media:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Change box shadow on hover */
+}
+
+/* Content styles */
+.support h3,
+.Career h3,
+.media h3 {
+  margin-top: 0; /* Remove default margin for heading */
+}
+
+.contact-link {
+  text-decoration: none;
+  color: #007bff; /* Link color */
+}
+
+.arrow-icon {
+  vertical-align: middle;
+}
+
+/* Optional: Adjust styles for icon */
+svg {
+  width: 20px;
+  height: 20px;
+}
+@media(max-width:778px)
+{
+  .Award-winning {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  
+}
+@media(max-width:500px)
+{
+  .Award-winning {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
+  
+}
+
+
+
+
+
+
+
+/* styles.css */
+.joinUS {
+  position: relative;
+  width: 100%; /* Adjust width as needed */
+  height: 200px; /* Adjust height as needed */
+  background-image: url('https://plus.unsplash.com/premium_photo-1681488055788-eaa7609d0f42?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-size: cover;
+  background-position: center;
+}
+
+.content11 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.content11 h1 {
+  color: rgb(0, 0, 0); /* Text color */
+}
+
+.content11 button {
+  background-color: #007bff; /* Button background color */
+  color: white; /* Button text color */
+  padding: 10px 20px; /* Button padding */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+@media(max-width:1200px)
+{
+  *{
+    margin: 0;
+    padding: 10;
+  }
+}

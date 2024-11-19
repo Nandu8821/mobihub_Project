@@ -1,0 +1,97 @@
+/* OrderComplete.css */
+
+.Order-Complete {
+    display: flex;
+    padding: 10px;
+
+}
+
+.Order-Complete-left {
+    background-color: rgb(52, 213, 52);
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-grow: 2; /* Left container takes up more space */
+}
+
+.Order-Complete-right {
+    flex-grow: 1; /* Right container takes up less space */
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f0f0f0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.Order-Details {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.delivery-address {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.delivery-address > div {
+    margin-right: 10px;
+}
+
+.Order-Summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.Final-Sub-Total,
+.Final-Delivery,
+.Total-Amount {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.button,
+.Order-Complete-right .button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover,
+.Order-Complete-right .button:hover {
+    background-color: #0056b3;
+}
+
+.link,
+.Order-Complete-right .link {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.link:hover,
+.Order-Complete-right .link:hover {
+    text-decoration: underline;
+}
+
+/* OrderComplete.css */
+
+
+@media(max-width:802px)
+{
+    .Order-Complete {
+        display: block;
+    
+    }
+}

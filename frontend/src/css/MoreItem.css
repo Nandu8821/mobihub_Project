@@ -1,0 +1,80 @@
+.containerr {
+    position: relative;
+    display: inline-block;
+    width: 100%; /* Adjust as needed */
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5); /* Adjust shadow size and color */
+    margin-bottom: 1%;
+    color: rgb(8, 124, 160);
+    
+  }
+  
+  .image-container {
+    width: 100%; /* Adjust width as needed */
+    float: left;
+    overflow: hidden;
+   
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .text-overlay {
+    position: absolute;
+    top: 0;
+    right: 10; /* Adjust the distance from the right edge as needed */
+    width: 50%; /* Adjust width as needed */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px; /* Adjust padding as needed */
+    box-sizing: border-box;
+  }
+  
+  .text-overlay h1,
+  .text-overlay p {
+    margin: 0;
+  }
+
+  
+
+  /* Responsive Font Sizes */
+@media screen and (max-width: 768px) {
+  .text-overlay h1 {
+    font-size: 1.5em; /* Adjust as needed */
+  }
+
+  .text-overlay p {
+    font-size: 1em; /* Adjust as needed */
+  }
+}
+
+@media screen and (max-width: 542px) {
+  .text-overlay h1 {
+    font-size: 1.25em; /* Adjust as needed */
+  }
+
+  .text-overlay p {
+    font-size: 0.875em; /* Adjust as needed */
+  }
+}
+@media screen and (max-width: 467px) {
+  .text-overlay h1 {
+    font-size: 1.0em; /* Adjust as needed */
+  }
+
+  .text-overlay p {
+    font-size: 0.875em; /* Adjust as needed */
+  }
+}
+@media screen and (max-width: 394px) {
+  .text-overlay h1 {
+    font-size: 0.6em; /* Adjust as needed */
+  }
+
+  .text-overlay p {
+    font-size: 0.875em; /* Adjust as needed */
+  }
+}
